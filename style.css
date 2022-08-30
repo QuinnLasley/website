@@ -39,7 +39,7 @@ body{
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: white;
+    background-color: black;
     transition: 0.5s;
     overflow-x: hidden;
     padding-top: 60px;
@@ -57,6 +57,8 @@ body{
     list-style-type: none;
     margin: 0;
     padding: 0;
+    background-color: white;
+    height: 100%;
 }
 .sidebar li{
     display: flex;
@@ -81,6 +83,7 @@ body{
     margin-left: 50px;
     background-color: transparent;
     border: none;
+    color: white;
 }
 .closebutton:hover{
     cursor: pointer;
