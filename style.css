@@ -43,13 +43,33 @@ body{
     transition: 0.5s;
     overflow-x: hidden;
     padding-top: 60px;
+    display: block;
 }
 .sidebar a{
-    padding: 8px 8px 8px 32px;
+    padding: 10px 10px;
     text-decoration: none;
     font-size: 20px;
-    display: block;
+    display: inline-block;
     transition: 0.3s;
+    color: black;
+}
+.sidebar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.sidebar li{
+    display: flex;
+    padding-top: 0;
+    color: white;
+    transition: 0.1s ease;
+}
+.sidebar li:hover{
+    background-color: gray;
+}
+.sidebar a:hover{
+    color: blue;
+    transition: 0s;
 }
 .sidebar .closebutton{
     position: absolute;
