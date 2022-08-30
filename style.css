@@ -63,6 +63,8 @@ body{
     padding-top: 0;
     color: white;
     transition: 0.1s ease;
+    align-items: center;
+    justify-content: center;
 }
 .sidebar li:hover{
     background-color: gray;
