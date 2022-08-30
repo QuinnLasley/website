@@ -12,6 +12,7 @@
         <h1>Welcome to quinnlasley.com</h1>
     </div>
     <div class="sidebar" style="display: none;" id="TheSideBar">
+        <button class="hamburger" style="color: black;" onclick="closeFunction()">X</button>
         <p>test</p>
     </div>
     <div style="padding:2%"></div>
@@ -20,6 +21,10 @@
     <script>
         function openFunction(){
             document.getElementById("TheSideBar").style.display="block";
+        }
+
+        function closeFunction(){
+            document.getElementById("TheSideBar").style.display="none";
         }
     </script>
 </body>
