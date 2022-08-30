@@ -11,20 +11,20 @@
         <button class="hamburger" onclick="openFunction()">☰</button>
         <h1>Welcome to quinnlasley.com</h1>
     </div>
-    <div class="sidebar" style="display: none;" id="TheSideBar">
-        <button class="hamburger" style="color: black;" onclick="closeFunction()">X</button>
-        <p>test</p>
+    <div class="sidebar" id="TheSideBar">
+        <button class="closebutton" onclick="closeFunction()">&times;</button>
+        <a href="about.html">test</a>
     </div>
     <div style="padding:2%"></div>
     <a href="https://github.com/QuinnLasley/website" class="button"> github </a>
     <marquee style="padding:5%;">🚧work in progress🚧</marquee>
     <script>
         function openFunction(){
-            document.getElementById("TheSideBar").style.display="block";
+            document.getElementById("TheSideBar").style.width="250px";
         }
 
         function closeFunction(){
-            document.getElementById("TheSideBar").style.display="none";
+            document.getElementById("TheSideBar").style.width="0";
         }
     </script>
 </body>
