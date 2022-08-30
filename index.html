@@ -12,7 +12,7 @@
         <h1>Welcome to quinnlasley.com</h1>
     </div>
     <div class="sidebar" style="display: none;" id="TheSideBar">
-        <button class="hamburger" style="color: black;" onclick="closeFunction()">X</button>
+        <button class="hamburger" style="color: black;" onclick="closeFunction()">&times;</button>
         <p>test</p>
     </div>
     <div style="padding:2%"></div>
@@ -20,11 +20,11 @@
     <marquee style="padding:5%;">🚧work in progress🚧</marquee>
     <script>
         function openFunction(){
-            document.getElementById("TheSideBar").style.display="block";
+            document.getElementById("TheSideBar").style.width="250px";
         }
 
         function closeFunction(){
-            document.getElementById("TheSideBar").style.display="none";
+            document.getElementById("TheSideBar").style.width="0";
         }
     </script>
 </body>
