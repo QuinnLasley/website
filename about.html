@@ -19,6 +19,21 @@
             <li><a href="about.html">About</a></li>
          </ul>
     </div>
+    <div class="listdiv">
+        <ul class="listul">
+            <li id="list">I am currently <span id="birthday"></span> years old</li>
+            <script>
+                var now = new Date();
+                var start = new Date("March 31, 2000")
+                var yearsSince = now.getFullYear() - start.getFullYear();
+                if (now < start.setFullYear(now.getFullYear())){
+                    yearsSince--;
+                }
+                document.getElementById("birthday").innerHTML = yearsSince;
+            </script>
+            <li>I graduated from the University of Missouri with a B.S. in biomedical engineering, earning summa cum laude and research honors</li>
+        </ul>
+    </div>
     <div style="padding:2%"></div>
 
     <marquee style="padding:5%;">🚧work in progress🚧</marquee>
