@@ -88,3 +88,10 @@ body{
 .closebutton:hover{
     cursor: pointer;
 }
+div.listdiv{
+    text-align: center;
+}
+ul.listul{
+    display: inline-block;
+    text-align: left;
+}
